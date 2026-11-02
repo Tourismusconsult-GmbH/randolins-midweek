@@ -148,7 +148,7 @@ function renderEvents(evts){
     grid.appendChild(c);obs.observe(c);
   });
 }
-renderEvents(summerEvents);
-sw('summer');
+renderEvents(winterEvents);
+sw('winter');
 
 })();
