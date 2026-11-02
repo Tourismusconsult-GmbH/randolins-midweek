@@ -1,11 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import BergDivider from '../components/BergDivider.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
 import OfferBar from '../components/OfferBar.astro';
 import Package from '../components/Package.astro';
 import Christmas from '../components/Christmas.astro';
 import Zimmer from '../components/Zimmer.astro';
+import Erlebnisse from '../components/Erlebnisse.astro';
 import Itinerary from '../components/Itinerary.astro';
 import Events from '../components/Events.astro';
 import HotelFeatures from '../components/HotelFeatures.astro';
@@ -15,13 +17,23 @@ import Footer from '../components/Footer.astro';
 <Layout>
   <Header />
   <Hero />
+  <BergDivider top="var(--color-bg-primary)" bottom="#ffffff" />
   <OfferBar />
+  <BergDivider top="#ffffff" bottom="var(--color-bg-primary)" />
   <Package />
+  <BergDivider top="var(--color-bg-primary)" bottom="#ffffff" />
   <Christmas />
+  <BergDivider top="#ffffff" bottom="var(--color-bg-primary)" />
   <Zimmer />
+  <BergDivider top="var(--color-bg-primary)" bottom="#ffffff" />
+  <Erlebnisse />
+  <BergDivider top="#ffffff" bottom="var(--color-bg-primary)" />
   <Itinerary />
+  <BergDivider top="var(--color-bg-primary)" bottom="#353535" />
   <Events />
+  <BergDivider top="#353535" bottom="#ffffff" />
   <HotelFeatures />
+  <BergDivider top="#ffffff" bottom="#283f49" />
   <Cta />
   <Footer />
 </Layout>
