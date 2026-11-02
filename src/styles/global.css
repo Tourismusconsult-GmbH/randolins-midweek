@@ -331,3 +331,6 @@ body::before{content:'';position:fixed;top:0;left:0;right:0;height:3px;backgroun
 
 /* ===== PARALLAX UTILITY ===== */
 [data-parallax]{will-change:auto}
+.package-conditions{font-size:13px;color:var(--color-text-secondary);margin:-12px 0 20px}
+@media(min-width:768px){.package--reverse .package-img{order:2}}
+.christmas{border-top:1px solid var(--color-border)}
